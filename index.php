@@ -1,7 +1,6 @@
 <?php
-$UserName=$_REQUEST['name'];
 if(isset($_POST['name'])){
-    
+    $UserName=$_POST['name'];
     $servername = "localhost";
     $username = "root";
     $password = "";
